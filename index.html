@@ -426,9 +426,16 @@
       
         
           
-            <p>12321312</p>
+          12321312
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/28/jq入门/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -596,9 +603,16 @@
       
         
           
-            <p>fuck你好</p>
+          fuck你好
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/27/liunx命令大全/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -754,9 +768,16 @@
       
         
           
-            <p>这是第二篇文章。略略略</p>
+          这是第二篇文章。略略略
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/27/art-title2/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -924,74 +945,25 @@
       
         
           
-            <hr>
-<p>计算机网络的概述，这章有利于记忆模型的建立。</p>
-<p>&lt;!−− more −−&gt; </p>
-<h4 id="计算机网络概述"><a href="#计算机网络概述" class="headerlink" title="计算机网络概述"></a>计算机网络概述</h4><h5 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h5><ul>
-<li>互联网是网络的网络，能将各种不同的网络连接起来。</li>
-</ul>
-<hr>
-<h5 id="ISP"><a href="#ISP" class="headerlink" title="ISP"></a>ISP</h5><ul>
-<li>ISP是互联网提供商，向用户综合提供互联网接入业务、信息业务和增值业务的电信运营商。</li>
-<li>互联网是多层ISP结构：<ul>
-<li>第一层为ISP的服务面积最大(一般能覆盖国家范围)，并且拥有高速主干网。</li>
-<li>第二层ISP和大公司都是第一层ISP的用户</li>
-<li>第三层ISP（本地ISP），是第二层ISP的用户，且只拥有本地范围的网络，一般的校园网或者企业网以及拨号上网的用户都是第三层ISP的用户。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h5 id="主机之间的通信方式"><a href="#主机之间的通信方式" class="headerlink" title="主机之间的通信方式"></a>主机之间的通信方式</h5><ul>
-<li>客户-服务器（C/S）：客户是服务的请求方，服务器是服务的提供方。</li>
-<li>对等（P2P)：不区分客户和服务器。</li>
-</ul>
-<hr>
-<h5 id="电路交换与分组交换"><a href="#电路交换与分组交换" class="headerlink" title="电路交换与分组交换"></a>电路交换与分组交换</h5><ol>
-<li>电路交换<br>&emsp;电路交换用于电话通信系统，两个用户通信之前需要建立一条专用的物理链路，在通信过程中会占用该链路。因为一直占用传输线路，因此电路交换对线路的利用率很低，往往不到10%。</li>
-<li>分组交换<br>&emsp;每个分组都有首部和尾部，包含了<strong>原地址</strong>和<strong>目的地址</strong>等控制信息，在同一个传输线路上同时传输多个分组互相不会影响。所以说分组不需要占用线路。<br>&emsp;分组交换还使用了<strong>存储转发过程</strong>，收到分组后先存储下来，把统一目的的分组一起转发到下一个目的地。</li>
-</ol>
-<hr>
-<h5 id="时延"><a href="#时延" class="headerlink" title="时延"></a>时延</h5><p>分组交换时，分组从一台主机(源)，通过一系列路由器传输，到达另一台主机(目的地)时。该分组在沿途的每个节点都经过了不同类型的<strong>时延</strong>。</p>
-<p>总时延 = 传输时延 + 传播时延 + 处理时延 + 排队时延。</p>
-<ol>
-<li><p>传输时延<br>&emsp;数据帧从结点(主机)进入到信道(传输线路)所需要的时间。<br>s(时间) = l(数据帧长度)/v(传输速率)</p>
-</li>
-<li><p>传播时延<br>&emsp;分组在信道中传播所需要花费的时间，电磁波传播速度接近光速。<br>s(时间) = l(信道长度)/v（电磁波速度）</p>
-</li>
-<li><p>处理时延<br>&emsp;主机或路由器接收到分组时进行处理分析需要的时间，如分析首部、从分组中提取数据、进行差错检验或查找适当的路由等。</p>
-</li>
-<li><p>排队时延<br>&emsp;分组在路由器<strong>输入队列</strong>和<strong>输出队列</strong>等待的时间，取决于当前网络的通信量。</p>
-</li>
-</ol>
-<h5 id="互联网体系结构"><a href="#互联网体系结构" class="headerlink" title="互联网体系结构"></a>互联网体系结构</h5><ol>
-<li><h6 id="五层协议"><a href="#五层协议" class="headerlink" title="五层协议"></a>五层协议</h6><ul>
-<li><strong>应用层</strong>：为特定应用程序提供数据传输服务，协议如HTTP、DNS等，数据单位为报文。</li>
-<li><strong>传输层</strong>：为柱击中的进程提供通用数据传输服务。通用的数据传输服务可以支持不断增多的应用层协议。传输层包括两种协议：传输层控制协议TCP和用户数据报协议UDP。<ul>
-<li>TCP：主要提供完整性服务，提供面向连接、可靠的数据传输服务，数据单位为报文段。</li>
-<li>UDP：主要提供及时性服务，提供无连接、尽最大努力的数据传输服务，数据单位为用户数据报。</li>
-</ul>
-</li>
-<li><strong>网络层</strong>：为主机之间提供数据传输服务。网络层把传输层传递下来的报文段或用户数据报封装成分组。</li>
-<li><strong>数据链路层</strong>：链路层协议为同一链路下的主机的提供数据传输服务，数据链路层把网络层传下的数组封装成帧。</li>
-<li><strong>物理层</strong>：考虑的是怎样在传输媒体(信道)上传输数据比特流，物理层的作用是尽可能的屏蔽传输媒体和通信手段的差异，使数据链路层感觉不到差异。</li>
-</ul>
-</li>
-<li><h6 id="OSI"><a href="#OSI" class="headerlink" title="OSI"></a>OSI</h6><p>&nbsp;OSI将应用层分为应用层、表示层和会话层。</p>
-<ul>
-<li>表示层：数据压缩、加密以及数据描述，这使得应用程序不用关系在各台柱击中数据内部格式不同的问题。</li>
-<li><p>会话层：建立及管理会话。</p>
-<p>五层协议没有表示层和会话层，这些功能留给应用程序开发者处理。</p>
-</li>
-</ul>
-</li>
-<li><h6 id="TCP-IP体系结构"><a href="#TCP-IP体系结构" class="headerlink" title="TCP/IP体系结构"></a>TCP/IP体系结构</h6><p>&emsp;TCP/IP体系结构只有四层：应用层、运输层、网际层和网络接口层。此结构不严格遵守OSI分层概念，应用层可能会直接使用IP层或网络接口层。<br>&nbsp;TCP/IP协议簇是一种沙漏形状，中间小两边大，IP协议在其中占有重要的地位。<br><img width="400px" src="index_files/TCPIP_u534F_u8BAE_u7C07.png"></p>
-</li>
-</ol>
-<ol start="4">
-<li><h6 id="数据在各层之间的传递"><a href="#数据在各层之间的传递" class="headerlink" title="数据在各层之间的传递"></a>数据在各层之间的传递</h6>&emsp;在向下的过程中,需要添加下层协议所需要的首部或尾部，再向上的过程不断拆开首部和尾部。<br>&emsp;路由器只有下三层协议，因为路由器位于网络核心中，不需要为进程或应用程序提供服务，因此也不需要传输层和应用层。</li>
-</ol>
-
           
+计算机网络的概述，这章有利于记忆模型的建立。
+&lt;!−− more −−&gt; 
+计算机网络概述互联网
+互联网是网络的网络，能将各种不同的网络连接起来。
+
+
+ISP
+ISP是互联网提供商，向用户综合提供互联网接入业务、信息业务和增值业务的电信运营商。
+互联网是多层ISP结构：
+第一层为ISP
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/27/计算机网络概述/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
