@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-01T07:37:12.787Z</updated>
+  <updated>2018-11-30T09:57:59.792Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,49 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/12/01/%E4%BA%8C/"/>
-    <id>http://yoursite.com/2018/12/01/二/</id>
-    <published>2018-12-01T07:37:12.787Z</published>
-    <updated>2018-12-01T07:37:12.787Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>jq入门</title>
-    <link href="http://yoursite.com/2018/09/28/jq%E5%85%A5%E9%97%A8/"/>
-    <id>http://yoursite.com/2018/09/28/jq入门/</id>
-    <published>2018-09-27T16:39:47.000Z</published>
-    <updated>2018-12-01T04:40:55.661Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;12321312&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
-    
-    
-      <category term="jquery" scheme="http://yoursite.com/tags/jquery/"/>
-    
-      <category term="入门" scheme="http://yoursite.com/tags/%E5%85%A5%E9%97%A8/"/>
-    
-  </entry>
   
   <entry>
     <title>liunx命令大全</title>
@@ -80,31 +37,6 @@
     </summary>
     
       <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>art title2</title>
-    <link href="http://yoursite.com/2018/09/27/art-title2/"/>
-    <id>http://yoursite.com/2018/09/27/art-title2/</id>
-    <published>2018-09-27T03:15:51.000Z</published>
-    <updated>2018-09-27T15:48:09.417Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;这是第二篇文章。略略略&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-      <category term="其他" scheme="http://yoursite.com/categories/other/"/>
     
     
   </entry>
