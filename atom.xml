@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-01T09:06:50.788Z</updated>
+  <updated>2018-12-17T18:32:33.498Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,172 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue-05</title>
+    <link href="http://yoursite.com/2018/12/18/vue-05/"/>
+    <id>http://yoursite.com/2018/12/18/vue-05/</id>
+    <published>2018-12-17T18:18:07.000Z</published>
+    <updated>2018-12-17T18:32:33.498Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#### 总结&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;MVC 和 MVVM 的区别&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;学习了Vue基本的结构&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;基本指令： 插值表达式
+        
+      
+    
+    </summary>
+    
+      <category term="vue" scheme="http://yoursite.com/categories/vue/"/>
+    
+    
+      <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-04</title>
+    <link href="http://yoursite.com/2018/12/18/vue-04/"/>
+    <id>http://yoursite.com/2018/12/18/vue-04/</id>
+    <published>2018-12-17T18:17:36.000Z</published>
+    <updated>2018-12-17T18:30:47.200Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#### Vue循环（v-for&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Vue循环数组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;p  v-for=&amp;quot;(item, i) in list&amp;quot;&amp;gt;id:
+        
+      
+    
+    </summary>
+    
+      <category term="vue" scheme="http://yoursite.com/categories/vue/"/>
+    
+    
+      <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-03</title>
+    <link href="http://yoursite.com/2018/12/18/vue-03/"/>
+    <id>http://yoursite.com/2018/12/18/vue-03/</id>
+    <published>2018-12-17T18:16:31.000Z</published>
+    <updated>2018-12-17T18:31:40.341Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#### 在Vue中使用样式&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Vue中使用class&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;– 使用class&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;h1  :class=&amp;quot;[&amp;#39;thin&amp;#39;, &amp;#39;red&amp;#39;,
+        
+      
+    
+    </summary>
+    
+      <category term="vue" scheme="http://yoursite.com/categories/vue/"/>
+    
+    
+      <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-02</title>
+    <link href="http://yoursite.com/2018/12/18/vue-02/"/>
+    <id>http://yoursite.com/2018/12/18/vue-02/</id>
+    <published>2018-12-17T18:12:17.000Z</published>
+    <updated>2018-12-17T18:32:13.428Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#### 事件修饰符&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;.stop 阻止冒泡&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;.prevent 阻止默认事件（如a标签默认事件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;.capture
+        
+      
+    
+    </summary>
+    
+      <category term="vue" scheme="http://yoursite.com/categories/vue/"/>
+    
+    
+      <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-01</title>
+    <link href="http://yoursite.com/2018/12/18/vue-01/"/>
+    <id>http://yoursite.com/2018/12/18/vue-01/</id>
+    <published>2018-12-17T18:11:08.000Z</published>
+    <updated>2018-12-17T18:32:40.018Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;MVVM&quot;&gt;&lt;a href=&quot;#MVVM&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="vue" scheme="http://yoursite.com/categories/vue/"/>
+    
+    
+      <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>liunx命令大全</title>
