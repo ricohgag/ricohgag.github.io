@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-17T18:32:33.498Z</updated>
+  <updated>2019-03-19T07:12:40.965Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Idea的SpringBoot单元测试</title>
+    <link href="http://yoursite.com/2019/03/19/Idea%E7%9A%84SpringBoot%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2019/03/19/Idea的SpringBoot单元测试/</id>
+    <published>2019-03-19T07:09:12.000Z</published>
+    <updated>2019-03-19T07:12:40.965Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;SpringBoot单元测试&quot;&gt;&lt;a href=&quot;#SpringBoot单元测试&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot单元测试&quot;&gt;&lt;/a&gt;SpringBoot单元测试&lt;/h3&gt;&lt;h5 id=&quot;环境配置&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="2019" scheme="http://yoursite.com/tags/2019/"/>
+    
+      <category term="cool" scheme="http://yoursite.com/tags/cool/"/>
+    
+      <category term="idea" scheme="http://yoursite.com/tags/idea/"/>
+    
+  </entry>
   
   <entry>
     <title>vue-05</title>
