@@ -119,7 +119,7 @@
 <meta property="og:image" content="http://image.ricohgag.cn/test/note01/img01.png">
 <meta property="og:image" content="http://image.ricohgag.cn/test/note01/img02.png">
 <meta property="og:image" content="http://image.ricohgag.cn/test/note01/img03.png">
-<meta property="og:updated_time" content="2019-03-19T07:12:40.965Z">
+<meta property="og:updated_time" content="2019-03-19T07:16:33.786Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Idea的SpringBoot单元测试">
 <meta name="twitter:description" content="SpringBoot单元测试* 环境配置 安装Idea 单元测试插件  1.进入File-Settings-Plugins，点击Browse Repositories  2.搜索 JunitGenerator 使用v2.0版本，下载安装  3.重启之后在Settings-Other Settings里找到 JunitGenerator,按图中选择。 output Path填入:  \${SOURC">
@@ -357,7 +357,7 @@
                 
               
 
-              <time title="创建时间：2019-03-19 15:09:12 / 修改时间：15:12:40" itemprop="dateCreated datePublished" datetime="2019-03-19T15:09:12+08:00">2019-03-19</time>
+              <time title="创建时间：2019-03-19 15:09:12 / 修改时间：15:16:33" itemprop="dateCreated datePublished" datetime="2019-03-19T15:09:12+08:00">2019-03-19</time>
             
 
             
@@ -417,9 +417,9 @@
 <li>安装Idea 单元测试插件<br>  1.进入File-Settings-Plugins，点击Browse Repositories<br>  2.搜索 JunitGenerator 使用v2.0版本，下载安装<br>  3.重启之后在Settings-Other Settings里找到 JunitGenerator,按图中选择。 output Path填入:  \${SOURCEPATH}/../test/java/${PACKAGE}/${FILENAME}</li>
 </ul>
 <p><img src="http://image.ricohgag.cn/test/note01/img01.png" alt=""><br><br><br></p>
-<h5 id="编写测试方法"><a href="#编写测试方法" class="headerlink" title="* 编写测试方法"></a>* 编写测试方法</h5><p>1.在需要测试的业务方法类里 ctrl+shift+T 选择需要添加单元测试的方法。<br><img src="http://image.ricohgag.cn/test/note01/img02.png" alt=""><br><br>2.在测试类上加上@Runner，@SpringBootTest注解，启动时先加载容器<br><img src="http://image.ricohgag.cn/test/note01/img03.png" alt=""><br><br>    3.@Autowired注入测试目标类，（Ioc容器在测试加载时已经准备完毕，所以可以直接注入）<br>    4.在测试方法里针对测试目标方法所有的情况编写测试用例。<br>    5.在chooceByNum方法里num作为输入有3种情况，测试用例需要把三种情况都考虑进来。当代码逻辑分支更改时，需要跟着更改单元测试的测试用例，保证测试用例能够全部能够绿色(运行成功)。<br>    6.Assert是用来比较输出是否达到理想的效果，如果不一致单元测试会报错。<br><br></p>
-<h5 id="单元测试的意义"><a href="#单元测试的意义" class="headerlink" title="* 单元测试的意义"></a>* 单元测试的意义</h5><pre><code>程序员能在开发环节提前发现错误，而不是在测试环节甚至生产环境中得知这个消息，减少了犯错的成本和机会。
-在测试用例考虑周全的情况下，当系统重构或更改代码后，单元测试能保证更改的代码的安全性
+<h5 id="编写测试方法"><a href="#编写测试方法" class="headerlink" title="* 编写测试方法"></a>* 编写测试方法</h5><p>1.在需要测试的业务方法类里 ctrl+shift+T 选择需要添加单元测试的方法。<br><img src="http://image.ricohgag.cn/test/note01/img02.png" alt=""><br><br>2.在测试类上加上@RunWith，@SpringBootTest注解，启动时先加载容器<br><img src="http://image.ricohgag.cn/test/note01/img03.png" alt=""><br><br>    3.@Autowired注入测试目标类，（Ioc容器在测试加载时已经准备完毕，所以可以直接注入）<br>    4.在测试方法里针对测试目标方法所有的情况编写测试用例。<br>    5.在chooceByNum方法里num作为输入有3种情况，测试用例需要把三种情况都考虑进来。当代码逻辑分支更改时，需要跟着更改单元测试的测试用例，保证测试用例能够全部能够绿色(运行成功)。<br>    6.Assert是用来比较输出是否达到理想的效果，如果不一致单元测试会报错。<br><br></p>
+<h5 id="单元测试的意义"><a href="#单元测试的意义" class="headerlink" title="* 单元测试的意义"></a>* 单元测试的意义</h5><pre><code>1.程序员能在开发环节提前发现错误，而不是在测试环节甚至生产环境中得知这个消息，减少了犯错的成本和机会。
+2.在测试用例考虑周全的情况下，当系统重构或更改代码后，单元测试能保证更改的代码的安全性
 </code></pre>
       
     </div>
