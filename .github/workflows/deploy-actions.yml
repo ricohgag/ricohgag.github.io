@@ -3,7 +3,7 @@ name: deploy blog
 on:
   push:
     branches:
-      - blog  # 或者是你的源代码分支
+      - master  # 或者是你的源代码分支
 
 jobs:
   deploy:
