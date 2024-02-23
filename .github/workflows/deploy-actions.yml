@@ -3,31 +3,36 @@ name: deploy blog
 on:
   push:
     branches:
-      - master
+      - main  # 或者是你的源代码分支
+
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: recursive  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        submodules: true
+        fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          # hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
-          hugo-version: '0.123.2'
-          extended: true
-          
-      - name: Build
-        run: hugo --minify
+    - name: Set up Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: "latest"
+        extended: true
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: ricohgag/ricohgag.github.io
-          publish_branch: blog
-          publish_dir: ./public
-          commit_message: ${{ github.event.head_commit.message }}
+    - name: Build and Deploy
+      run: |
+        hugo -F --cleanDestinationDir  # 生成静态文件
+        mkdir -p public  # 确保public文件夹存在
+        cp -r public/* ./  # 复制生成的静态文件到仓库根目录
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}  # 你的个人访问令牌
+        EXTERNAL_REPOSITORY: username/username.github.io  # 你的GitHub Pages仓库
+        PUBLISH_BRANCH: main  # 或者是你的GitHub Pages分支
+        PUBLISH_DIR: ./
+        commit_message: ${{ github.event.head_commit.message }}
