@@ -24,7 +24,7 @@ jobs:
 
     - name: Build and Deploy
       run: |
-        hugo -F --cleanDestinationDir  # 生成静态文件
+        hugo -D -F --cleanDestinationDir  # 生成静态文件
         mkdir -p public  # 确保public文件夹存在
 
     - name: Deploy to GitHub Pages
