@@ -22,4 +22,5 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} # secret 中设置好私钥
           external_repository: ricohgag/ricohgag.github.io  # Page 仓库
           publish_branch: blog  # Page 仓库的分支
+          publish_dir: ./public
           commit_message: ${{ github.event.head_commit.message }}
