@@ -30,3 +30,4 @@ jobs:
           external_repository: ricohgag/ricohgag.github.io
           publish_branch: blog
           publish_dir: ./public
+          commit_message: ${{ github.event.head_commit.message }}
