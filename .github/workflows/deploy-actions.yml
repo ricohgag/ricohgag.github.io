@@ -29,6 +29,6 @@ jobs:
       with:
         PERSONAL_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}  # 你的个人访问令牌
         EXTERNAL_REPOSITORY: ricohgag/ricohgag.github.io  # 你的GitHub Pages仓库
-        PUBLISH_BRANCH: blog  # 或者是你的GitHub Pages分支
+        PUBLISH_BRANCH: blog  # 或者是你的GitHub Pahugo_next_avatarges分支
         PUBLISH_DIR: ./public
         commit_message: ${{ github.event.head_commit.message }}
