@@ -286,7 +286,7 @@ params:
   avatar:
     # 设置显示头像的相对路径
     # Replace the default image and set the url here.
-    url: /imgs/head.png
+    url: /imgs/head.jpg
     # 开启头像的圆形显示效果
     # If true, the avatar will be displayed in circle.
     rounded: true
@@ -316,7 +316,7 @@ params:
   socials: 
     social0: Github || https://github.com/elkan1788 || fab fa-github
     #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-    social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+#    social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
     #Google: https://plus.google.com/yourname || fab fa-google
     #Twitter: https://twitter.com/yourname || fab fa-twitter
     #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -356,9 +356,9 @@ params:
   # 用法： `Key: 显示名称 || 链接地址`
   # Links of your friends
   # Usage: `Key: name || permalink`
-  links: 
-    link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-    link1: 凡梦星尘空间站 || https://lisenhui.cn
+#  links:
+#    link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
+#    link1: 凡梦星尘空间站 || https://lisenhui.cn
 
   # 文章目录显示
   # Table of Contents in the Sidebar
@@ -419,7 +419,7 @@ params:
     # Beian ICP and gongan information for Chinese users. 
     # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
     beian:
-      enable: true
+      enable: false
       # ICP 备案的具体信息
       icp: 粤ICP备 18047355-1 号
       # 公安网备的省份简称
@@ -639,7 +639,7 @@ params:
     enable: true
     # 你的 Github 仓库地址
     # Your repository url on Github.
-    permalink: https://github.com/hugo-next
+    permalink: https://github.com/ricohgag
     # 关注说明
     # Show this title when cursor move on.
     title: Follow me on GitHub
@@ -1010,7 +1010,7 @@ params:
   # For more information: https://gitter.im
   gitter:
     enable: true
-    room: hugo-next/community
+    room: ricohgag/ricohgag.github.io
 
 
   # ---------------------------------------------------------------
