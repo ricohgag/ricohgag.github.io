@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,9 +149,9 @@
   },
   "active": "ca438eb1f40e671f",
   "lastOpenFiles": [
-    "未命名.canvas",
-    "content/about.md",
     "content/posts/my-first-post.md",
+    "content/about.md",
+    "未命名.canvas",
     "obs_sctipts/NewBlog.js",
     "obs_sctipts/新建文本文档.txt",
     "obs_sctipts",
