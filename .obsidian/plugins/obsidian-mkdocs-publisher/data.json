@@ -1,8 +1,8 @@
 {
   "github": {
-    "user": "",
-    "repo": "",
-    "branch": "main",
+    "user": "ricohgag",
+    "repo": "ricohgag.github.io",
+    "branch": "master",
     "automaticallyMergePR": true,
     "dryRun": {
       "enable": false,
@@ -18,8 +18,8 @@
       "name": ""
     },
     "otherRepo": [],
-    "verifiedRepo": false,
-    "rateLimit": 0
+    "verifiedRepo": true,
+    "rateLimit": 4998
   },
   "upload": {
     "behavior": "fixed",
