@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/my-first-post.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/my-first-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/my-first-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/about.md"
+                "file": "content/posts/my-first-post.md"
               }
             }
           }
@@ -147,14 +147,48 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ca438eb1f40e671f",
+  "active": "35f5608000253f2c",
   "lastOpenFiles": [
-    "content/posts/my-first-post.md",
+    "themes/hugo-theme-next/exampleSite/static/css/custom_style.css",
+    "themes/hugo-theme-next/exampleSite/layouts/partials/custom_sidebar.html",
+    "themes/hugo-theme-next/exampleSite/layouts/partials/custom_footer.html",
+    "themes/hugo-theme-next/exampleSite/static/imgs/wechat-pay.png",
+    "themes/hugo-theme-next/exampleSite/static/imgs/ali-pay.png",
+    "themes/hugo-theme-next/exampleSite/content/post/table-of-content.md",
+    "themes/hugo-theme-next/exampleSite/content/post/syntax-highlighting.md",
+    "themes/hugo-theme-next/exampleSite/content/post/shortcodes.md",
+    "themes/hugo-theme-next/exampleSite/content/post/no-header-title.md",
+    "themes/hugo-theme-next/exampleSite/content/post/mermaid-charts.md",
+    "themes/hugo-theme-next/exampleSite/content/post/math-formula.md",
+    "themes/hugo-theme-next/exampleSite/content/post/markdown-syntax.md",
+    "themes/hugo-theme-next/exampleSite/content/post/hello-world.md",
+    "themes/hugo-theme-next/exampleSite/content/post/external-link.md",
+    "themes/hugo-theme-next/exampleSite/content/post/emoji-support.md",
+    "themes/hugo-theme-next/exampleSite/content/post/custom-files.md",
+    "themes/hugo-theme-next/exampleSite/content/archives/_index.md",
+    "themes/hugo-theme-next/exampleSite/static/css",
+    "themes/hugo-theme-next/exampleSite/layouts/partials",
+    "themes/hugo-theme-next/exampleSite/static/imgs",
+    "themes/hugo-theme-next/exampleSite/data/flinks.yaml",
+    "themes/hugo-theme-next/exampleSite/content/post",
+    "themes/hugo-theme-next/exampleSite/content/flinks.md",
+    "themes/hugo-theme-next/exampleSite/content/archives",
+    "themes/hugo-theme-next/exampleSite/content/about.md",
+    "themes/hugo-theme-next/exampleSite/static",
+    "themes/hugo-theme-next/exampleSite/startup.sh",
+    "themes/hugo-theme-next/images/tn.png",
+    "themes/hugo-theme-next/images/screenshot.png",
+    "themes/hugo-theme-next/static/imgs/cc/small/cc_zero.svg",
+    "themes/hugo-theme-next/static/imgs/cc/small/by_sa.svg",
+    "themes/hugo-theme-next/static/imgs/cc/small/by_nd.svg",
+    "themes/hugo-theme-next/static/imgs/cc/small/by_nc_sa.svg",
+    "themes/hugo-theme-next/static/imgs/cc/small/by_nc_nd.svg",
+    "themes/hugo-theme-next/static/imgs/cc/small/by_nc.svg",
+    "themes/hugo-theme-next/archetypes/default.md",
+    "themes/hugo-theme-next/README.zh.md",
+    "themes/hugo-theme-next/README.md",
     "content/about.md",
-    "未命名.canvas",
-    "obs_sctipts/NewBlog.js",
-    "obs_sctipts/新建文本文档.txt",
-    "obs_sctipts",
-    "新建文件夹"
+    "content/posts/my-first-post.md",
+    "未命名.canvas"
   ]
 }
