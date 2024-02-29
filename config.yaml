@@ -126,7 +126,7 @@ menus:
   main:
     - identifier: home
       name: 首页
-      pageref: /
+      pageref: /post
       pre: home
       weight: 1
     - identifier: about
