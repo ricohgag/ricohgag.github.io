@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d570a60d51524df5",
+        "id": "234f35fbde229a7f",
         "type": "tabs",
         "children": [
           {
-            "id": "ca438eb1f40e671f",
+            "id": "ed6822d5ac42f4be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/my-first-post.md",
+                "file": "content/read_note/DDIA/一、可靠、可扩展与可维护的应用系统.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/my-first-post.md",
+                "file": "content/read_note/DDIA/一、可靠、可扩展与可维护的应用系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/my-first-post.md",
+                "file": "content/read_note/DDIA/一、可靠、可扩展与可维护的应用系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/my-first-post.md"
+                "file": "content/read_note/DDIA/一、可靠、可扩展与可维护的应用系统.md"
               }
             }
           }
@@ -147,11 +147,35 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "35f5608000253f2c",
+  "active": "ed6822d5ac42f4be",
   "lastOpenFiles": [
-    "themes/hugo-theme-next/exampleSite/static/css/custom_style.css",
-    "themes/hugo-theme-next/exampleSite/layouts/partials/custom_sidebar.html",
-    "themes/hugo-theme-next/exampleSite/layouts/partials/custom_footer.html",
+    "content/read_note/DDIA/六、数据分区.md~",
+    "content/read_note/DDIA/五、数据复制.md~",
+    "content/read_note/DDIA/三、数据存储与检索.md~",
+    "content/read_note/DDIA/二、数据模型与查询语言.md~",
+    "content/read_note/DDIA/一、可靠、可扩展与可维护的应用系统.md~",
+    "content/read_note/DDIA/八、分布式系统挑战.md~",
+    "content/read_note/DDIA/七、事务.md~",
+    "content/read_note/DDIA/五、数据复制.md",
+    "content/read_note/DDIA/四、数据编码和演化.md",
+    "content/read_note/DDIA/三、数据存储与检索.md",
+    "content/read_note/DDIA/七、事务.md",
+    "content/read_note/DDIA/六、数据分区.md",
+    "content/read_note/DDIA/二、数据模型与查询语言.md",
+    "content/read_note/DDIA/八、分布式系统挑战.md",
+    "content/read_note/DDIA/一、可靠、可扩展与可维护的应用系统.md",
+    "content/book_list/面经书单.md",
+    "public/read_note/page/1/index.html",
+    "public/read_note/ddia/四数据编码和演化/index.html",
+    "public/read_note/ddia/六数据分区/index.html",
+    "public/read_note/ddia/八分布式系统挑战/index.html",
+    "content/book_list/程序员做饭指南.md",
+    "content/book_list/SRE书单.md",
+    "content/book_list/编程书籍索引.md",
+    "content/book_list/生活与健康书单.md",
+    "content/posts/first.md",
+    "content/about.md",
+    "2024-02-29.md",
     "themes/hugo-theme-next/exampleSite/static/imgs/wechat-pay.png",
     "themes/hugo-theme-next/exampleSite/static/imgs/ali-pay.png",
     "themes/hugo-theme-next/exampleSite/content/post/table-of-content.md",
@@ -163,19 +187,6 @@
     "themes/hugo-theme-next/exampleSite/content/post/markdown-syntax.md",
     "themes/hugo-theme-next/exampleSite/content/post/hello-world.md",
     "themes/hugo-theme-next/exampleSite/content/post/external-link.md",
-    "themes/hugo-theme-next/exampleSite/content/post/emoji-support.md",
-    "themes/hugo-theme-next/exampleSite/content/post/custom-files.md",
-    "themes/hugo-theme-next/exampleSite/content/archives/_index.md",
-    "themes/hugo-theme-next/exampleSite/static/css",
-    "themes/hugo-theme-next/exampleSite/layouts/partials",
-    "themes/hugo-theme-next/exampleSite/static/imgs",
-    "themes/hugo-theme-next/exampleSite/data/flinks.yaml",
-    "themes/hugo-theme-next/exampleSite/content/post",
-    "themes/hugo-theme-next/exampleSite/content/flinks.md",
-    "themes/hugo-theme-next/exampleSite/content/archives",
-    "themes/hugo-theme-next/exampleSite/content/about.md",
-    "themes/hugo-theme-next/exampleSite/static",
-    "themes/hugo-theme-next/exampleSite/startup.sh",
     "themes/hugo-theme-next/images/tn.png",
     "themes/hugo-theme-next/images/screenshot.png",
     "themes/hugo-theme-next/static/imgs/cc/small/cc_zero.svg",
@@ -184,11 +195,6 @@
     "themes/hugo-theme-next/static/imgs/cc/small/by_nc_sa.svg",
     "themes/hugo-theme-next/static/imgs/cc/small/by_nc_nd.svg",
     "themes/hugo-theme-next/static/imgs/cc/small/by_nc.svg",
-    "themes/hugo-theme-next/archetypes/default.md",
-    "themes/hugo-theme-next/README.zh.md",
-    "themes/hugo-theme-next/README.md",
-    "content/about.md",
-    "content/posts/my-first-post.md",
     "未命名.canvas"
   ]
 }

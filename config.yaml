@@ -126,29 +126,30 @@ menus:
   main:
     - identifier: home
       name: 首页
-      pageref: /post
+      pageref: /
       pre: home
       weight: 1
+    - identifier: read_note
+      name: 读书笔记
+      pageref: /read_note
+      pre: book-open-reader
+      weight: 3
+    - identifier: book_list
+      name: 书单
+      pageref: /book_list
+      pre: book
+      weight: 4
     - identifier: about
       name: 关于
       pageref: /about.html
       pre: user
-      weight: 2
-    - identifier: flinks
-      name: 站点示例
-      pageref: /flinks.html
-      pre: thumbs-up
-      weight: 3
-    - identifier: archives
-      name: 归档
-      pageref: /archives
-      pre: archive
-      weight: 4
-    - identifier: commonweal
-      name: 公益 404
-      url: /404.html
-      pre: heartbeat
       weight: 5
+
+#    - identifier: commonweal
+#      name: 公益 404
+#      url: /404.html
+#      pre: heartbeat
+#      weight: 5
 
 #-----------------------------------------
 # Hugo NexT 主题参数配置
@@ -158,7 +159,7 @@ params:
   # 需要显示文章的部分，即content目录下的文件夹名称
   # Sections for show in home & archive page 
   # and it's forlder name which under content
-  mainSections: ["post"]
+  mainSections: ["posts"]
   # 年，月，日及时间的格式化样式
   # Format style for year,month,date & time
   yearFormat: "2006"
@@ -169,13 +170,13 @@ params:
   # 页面模式
   # Schemes
   #scheme: Muse
-  #scheme: Mist
+  scheme: Mist
   #scheme: Pisces
-  scheme: Gemini
+  #scheme: Gemini
 
   # 开启暗模式
   # Dark Mode
-  darkmode: true
+  darkmode: false
 
 
   # 站点基本信息
@@ -430,7 +431,7 @@ params:
     # 站点支持供应商列表
     # Vendors list who support website. 
     vendors:
-      enable: true
+      enable: false
       # 支持说明
       # Some support information description.
       title: 提供CDN/云资源支持
